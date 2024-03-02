@@ -11,4 +11,26 @@
 }
 .font-imperialScript {
   font-family: "ImperialScript";
-};
+}
+
+@font-face {
+  font-family: "MontserratRegular";
+  src: url("../public/fonts/Montserrat-Regular.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+.font-montserrat {
+  font-family: "MontserratRegular";
+}
+
+@font-face {
+  font-family: "MontserratBold";
+  src: url("../public/fonts/Montserrat-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+}
+.font-montserratBold {
+  font-family: "MontserratBold";
+}
