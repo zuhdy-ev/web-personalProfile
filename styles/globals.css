@@ -3,17 +3,6 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "ImperialScript";
-  src: url("../public/fonts/ImperialScript-Regular.ttf") format("truetype");
-  font-style: normal;
-  font-weight: normal;
-  font-display: swap;
-}
-.font-imperialScript {
-  font-family: "ImperialScript";
-}
-
-@font-face {
   font-family: "MontserratRegular";
   src: url("../public/fonts/Montserrat-Regular.ttf") format("truetype");
   font-style: normal;
