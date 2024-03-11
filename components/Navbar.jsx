@@ -16,7 +16,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="absolute w-full h-[12%] flex items-center justify-center bg-primary">
+      <div className="absolute w-full h-[12%] flex items-center justify-center z-50">
         {/* Nabvar - Container */}
         <div className="w-[90%] h-[60%] bg-gradient-to-b from-[#565969] to-[#383B4E] to-[150%] rounded-full flex place-content-between items-center px-3">
           {/* Navbar - Logo */}

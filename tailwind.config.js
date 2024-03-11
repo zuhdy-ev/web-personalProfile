@@ -13,6 +13,7 @@ module.exports = {
       tertiary: "#B6BBC4",
       fourth: "#F0ECE5",
       fifth: "#39FF14",
+      black: "#0F0F0F",
     },
   },
   plugins: [],

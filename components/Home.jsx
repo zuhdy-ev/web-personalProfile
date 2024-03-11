@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Link from "next/link";
 import "../styles/globals.css";
 
 export default function Home() {
@@ -19,12 +20,18 @@ export default function Home() {
           </div> */}
           <hr className="w-[80%] max-w-xl my-5 border border-secondary" />
           <div className="relative">
-            <button className="bg-secondary px-6 py-2 font-montserrat rounded-md text-[0.8rem] md:text-[1rem] lg:text-[1.1rem] mr-2 hover:outline hover:outline-fifth">
+            <Link
+              href="/work"
+              className="bg-secondary px-6 py-2 font-montserrat rounded-md text-[0.8rem] md:text-[1rem] lg:text-[1.1rem] mr-2 hover:outline hover:outline-fifth"
+            >
               my works.
-            </button>
-            <button className="bg-secondary px-6 py-2 font-montserrat rounded-md text-[0.8rem] md:text-[1rem] lg:text-[1.1rem] ml-2 hover:outline hover:outline-fifth">
+            </Link>
+            <Link
+              href="/about"
+              className="bg-secondary px-6 py-2 font-montserrat rounded-md text-[0.8rem] md:text-[1rem] lg:text-[1.1rem] ml-2 hover:outline hover:outline-fifth"
+            >
               about me.
-            </button>
+            </Link>
           </div>
         </div>
       </div>
