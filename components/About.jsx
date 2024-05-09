@@ -11,45 +11,43 @@ import gmail from "../public/assets/icon/gmail.svg";
 export default function About() {
   return (
     <>
-      <div className="relative z-0 w-full h-full bg-primary flex flex-col items-center">
+      <div className="relative z-0 w-full h-full bg-primary flex flex-col items-center lg:flex-row lg:h-screen lg:px-[5rem] lg:items-end xl:px-[7rem] overflow-hidden">
         {/* Photo */}
-        <div className="relative w-[80%] h-[40rem] rounded-b-[50px]">
+        <div className="relative w-[80%] h-[180vw] sm:w-[32rem] sm:h-[50rem] rounded-b-[50px] lg:mr-10 lg:-bottom-20 xl:-bottom-14">
           <Image
             src={my_photo}
             alt="Zuhdi Ardi"
             layout="fill"
             objectFit="cover"
-            className="rounded-b-[50px]"
+            className="rounded-b-[50px] lg:rounded-b-none lg:rounded-t-[50px]"
           />
         </div>
         {/* Content */}
-        <div className="w-[80%] mt-[2rem]">
+        <div className="w-[80%] mt-[2rem] lg:-translate-y-[6rem] xl:-translate-y-[8rem]">
           {/* Name */}
-          <div className="flex justify-center">
-            <p className="font-montserratBold text-[2.5rem] md:text-[3.5rem] lg:text-[5rem] text-fifth">
+          <div className="flex justify-center lg:justify-start">
+            <p className="font-montserratBold text-[2.5rem] md:text-[3.5rem] lg:text-[4rem] text-fifth">
               Zuhdi Ardi
             </p>
           </div>
-          <hr className="w-full max-w-xl my-5 border border-secondary" />
           {/* Text */}
           <div className="">
+            <hr className="w-full max-w-xl my-5 border border-secondary" />
             <p className="font-poppins text-justify text-fourth">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book. It has
-              survived not only five centuries, but also the leap into
-              electronic typesetting, remaining essentially unchanged. It was
-              popularised in the 1960s with the release of Letraset sheets
-              containing Lorem Ipsum passages, and more recently with desktop
-              publishing software like Aldus PageMaker including versions of
-              Lorem Ipsum.
+              I'm an undergraduate student in fisheries major that is more
+              passionate about the IT (Information Technology) field. Although
+              my classes in college do not cover IT topics extensively, I have
+              taken the initiative to learn about IT through online resources,
+              courses, and bootcamps. To enhance my skills in critical thinking,
+              coding, teamwork, communication, and leadership, I actively
+              participate in various organizations and volunteering
+              opportunities both within and outside the campus.
             </p>
+            <hr className="w-full max-w-xl my-5 border border-secondary" />
           </div>
-          <hr className="w-full max-w-xl my-5 border border-secondary" />
           {/* Connect with me */}
           <div>
-            <p className="font-montserratBold text-[1.5rem] md:text-[3.5rem] lg:text-[5rem] text-fifth">
+            <p className="font-montserratBold text-[1.5rem] text-fifth">
               Connect with me.
             </p>
             {/* Resume & Portfolio */}
