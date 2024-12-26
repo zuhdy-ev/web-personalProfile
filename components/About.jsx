@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import "../styles/globals.css";
 
-import my_photo from "../public/assets/my-photo.jpg";
+import my_photo from "../public/assets/my-photo.png";
 import linkedin from "../public/assets/icon/linkedin.svg";
 import github from "../public/assets/icon/github.svg";
 import instagram from "../public/assets/icon/instagram.svg";
