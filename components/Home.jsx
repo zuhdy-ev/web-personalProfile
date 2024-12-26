@@ -10,7 +10,7 @@ export default function Home() {
         {/* --- Content --- */}
         <div className="w-full h-[88%] flex flex-col items-center justify-center text-fourth">
           <div className="font-montserratBold text-fifth text-[0.8rem] md:text-[1.2rem] lg:text-[1.5rem]">
-            Hi! I'm
+            Hi! I&apos;m
           </div>
           <div className="font-montserratBold text-[2.5rem] md:text-[3.5rem] lg:text-[5rem]">
             ZUHDI ARDI,

@@ -34,7 +34,7 @@ export default function About() {
           <div className="">
             <hr className="w-full max-w-xl my-5 border border-secondary" />
             <p className="font-poppins text-justify text-fourth">
-              Im an undergraduate student in fisheries major that is more
+              I&apos;m an undergraduate student in fisheries major that is more
               passionate about the IT (Information Technology) field. Although
               my classes in college do not cover IT topics extensively, I have
               taken the initiative to learn about IT through online resources,
