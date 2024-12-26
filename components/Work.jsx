@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import cardLinkedin from "@/public/assets/contact/card-Linkedin.png";
+import cardLinkedin from "@/public/assets/contact/card-LinkedIn.png";
 import cardEmail from "@/public/assets/contact/card-Email.png";
 import cardGitHub from "@/public/assets/contact/card-GitHub.png";
 import cardInstagram from "@/public/assets/contact/card-Instagram.png";
