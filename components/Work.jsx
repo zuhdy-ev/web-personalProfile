@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 
-import cardLinkedin from "@/public/assets/contact/card-LinkedIn.png";
+import cardLinkedin from "@/public/assets/contact/card-Linkedin.png";
 import cardEmail from "@/public/assets/contact/card-Email.png";
 import cardGitHub from "@/public/assets/contact/card-GitHub.png";
 import cardInstagram from "@/public/assets/contact/card-Instagram.png";
@@ -29,7 +29,11 @@ export default function Work() {
                     linkedin.com/in/zuhdi-ardi
                   </h1>
                 </div>
-                <Image src={cardLinkedin} alt="Linkedin" className="w-full h-full" />
+                <Image
+                  src={cardLinkedin}
+                  alt="Linkedin"
+                  className="w-full h-full"
+                />
               </div>
             </Link>
           </div>
@@ -60,7 +64,11 @@ export default function Work() {
                     zuhdy-ev
                   </h1>
                 </div>
-                <Image src={cardGitHub} alt="GitHub" className="w-full h-full" />
+                <Image
+                  src={cardGitHub}
+                  alt="GitHub"
+                  className="w-full h-full"
+                />
               </div>
             </Link>
           </div>
@@ -73,7 +81,11 @@ export default function Work() {
                     instagram.com/zuhdiardi
                   </h1>
                 </div>
-                <Image src={cardInstagram} alt="Instagram" className="w-full h-full" />
+                <Image
+                  src={cardInstagram}
+                  alt="Instagram"
+                  className="w-full h-full"
+                />
               </div>
             </Link>
           </div>
