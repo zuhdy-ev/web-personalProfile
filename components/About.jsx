@@ -41,7 +41,7 @@ export default function About() {
               courses, and bootcamps. To enhance my skills in critical thinking,
               coding, teamwork, communication, and leadership, I actively
               participate in various organizations and volunteering
-              opportunities both within and outside the campus. Test.
+              opportunities both within and outside the campus.
             </p>
             <hr className="w-full max-w-xl my-5 border border-secondary" />
           </div>
